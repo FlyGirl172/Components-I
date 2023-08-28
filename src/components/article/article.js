@@ -145,7 +145,7 @@ function articleMaker(articleObj) {
 //articleMaker();
 
 data.forEach(article => {
-  document.querySelector('div-articles').appendChild(articleMaker(article));
+  document.querySelector('.articles').appendChild(articleMaker(article));
 })
 /*
   Step 1: Write a component called 'articleMaker' to create an article.

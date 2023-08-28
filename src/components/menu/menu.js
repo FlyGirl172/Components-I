@@ -18,8 +18,8 @@ function menuMaker(linksArray) {
 
   menuWrapper.classList.add('menu');
 
-  linksArray.forEach(link => {
-   const linkText = document.createElement('li');
+  linksArray.forEach(linkText => {
+   const link = document.createElement('li');
    link.textContent = linkText;
    menuList.appendChild(link);
   })
